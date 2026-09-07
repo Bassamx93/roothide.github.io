@@ -178,6 +178,22 @@ Description: A SwiftUI Prefs Framework
 Author: Ginsu
 Name: Comet
 
+Package: com.ginsu.comet
+Version: 2.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Ginsu
+Installed-Size: 1688
+Depends: firmware (>= 14.0)
+Filename: ./debfiles/com.ginsu.comet_2.0.1_iphoneos-arm64e.deb
+Size: 219224
+MD5sum: 90d344e51c992aad5a37239e77855a53
+SHA1: f2dbc11699acfd833cbde9295d35cd1f4784574a
+SHA256: 5248ab4c07a12cd4a3ac6da3b86a3f31e3ab02a4bf296c200677cf1aa8a88a43
+Section: Tweaks
+Description: A SwiftUI Prefs Framework
+Author: Ginsu
+Name: Comet
+
 Package: com.imkpatil.colormybattery
 Version: 1.3.4
 Architecture: iphoneos-arm64e
@@ -2061,6 +2077,22 @@ Size: 3206
 MD5sum: badcb9d02a41d2c692b5f92d4fc174f0
 SHA1: 0af0dbb9f18de725ddbde563c4846dcb16e36b4c
 SHA256: 5ed15e9f7bb3103c51bc360d2783fbcfcfe37ec4d5dc8e7319d30ce16fdd2654
+Section: Tweaks
+Description: Support for legacy arm64e ABI in iOS 15.0+
+Author: Nightwind
+Name: Legacy arm64e Support
+
+Package: oldabi
+Version: 2.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Nightwind
+Installed-Size: 68
+Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
+Filename: ./debfiles/oldabi_2.0.1_iphoneos-arm64e.deb
+Size: 3206
+MD5sum: 3ef2a47b7ef7183aa6357da76870b9da
+SHA1: b465040912110338f51dbc149b15b7cbf8f1f7ca
+SHA256: f0c69f940ec74d1fd141e809878b13cb38eae4ef95d75b5000c14125861ddf7c
 Section: Tweaks
 Description: Support for legacy arm64e ABI in iOS 15.0+
 Author: Nightwind
