@@ -1836,6 +1836,26 @@ Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 Name: ElleKit
 
+Package: ellekit
+Version: 1.2-1
+Architecture: iphoneos-arm64e
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: ./debfiles/ellekit_1.2-1_iphoneos-arm64e.deb
+Size: 142968
+MD5sum: 988ba4ca7d79ba6e1dd5afada69a8681
+SHA1: 21d1282c30113d033ca41e420339597ed8b8f31b
+SHA256: 50f1b2d60e029592238d80737b32ccc019e74ce9611390c30ffebba75097b41c
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
 Package: ios-debugserver
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -2433,6 +2453,22 @@ Size: 20082
 MD5sum: 7fcefcf468b4114d08dbbe29ce30159d
 SHA1: 38fc3d5d8a9ad3db14c3ac4133eecc6f154e69d5
 SHA256: 884a12b4003d69c1203e61307ea3c148db4263b3ba4cf4895359a9877c1404c3
+Section: System
+Description: load preferences in style
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader
+
+Package: preferenceloader
+Version: 2.2.8
+Architecture: iphoneos-arm64e
+Maintainer: ProcursusTeam <support@procurs.us>
+Installed-Size: 340
+Depends: mobilesubstrate
+Filename: ./debfiles/preferenceloader_2.2.8_iphoneos-arm64e.deb
+Size: 15816
+MD5sum: 621ec4c3191efae712a22fcd72233690
+SHA1: e691ab207e6a9af4a432af3e53432d83e94d72a7
+SHA256: 3c9cbbd49afea965457d8be48245df1c798270042482b6281476e0534163a4eb
 Section: System
 Description: load preferences in style
 Author: Dhinak G <dhinak@dhinak.net>
